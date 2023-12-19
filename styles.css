@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+.box, .bottombox, .midbox {
+    background-color: whitesmoke;
+    width: 340.73px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: height 0.9s;
+    box-sizing: border-box;
+}
+
+.border {
+    border-color: green;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.button {
+    background-color: green;
+    width: 340.73px;
+    padding: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+}
+
+.expanded {
+    height: 150px;
+}
+
+.size{
+    float: left;
+    padding-right: 8rem;
+}
+
+

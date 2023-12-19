@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interactive Boxes</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div style="color: green;padding-left: 130px;font-size: larger;">Bundle & Save</div>
+
+<div class="box" id="topBox" onclick="toggleExpanded('topBox')">
+            <div class="options" id="topOptions">
+                <input type="radio" id="top" value="1 Pair">
+                <label for="top">1 Pair</label><br>
+                <Label style="padding-left: 28px;">DKK 195.00</Label>
+                <Label style="padding-left: 50px;">50% OFF</Label>
+
+                <div class="size">
+                    <label style="padding-top: 20px;">Size</label>
+                    <select name="size" id="topSize" style="display: none;">
+                        <option value="small">Small</option>
+                        <option value="large">Large</option>
+                        <option value="medium">Medium</option>
+                    </select>
+                </div>
+                <br>
+                <div class="color">
+                    <label style="padding-left: 28px;">Color</label>
+                    <select name="Color" id="topColor" style="display: none;">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Green">Green</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="midbox" id="middlebox" onclick="toggleExpanded('middlebox')">
+            <div class="options" id="middleoptions">
+                <input type="radio" id="mid" value="1 Pair">
+                <label for="mid">2 Pair</label><br>
+                <Label style="padding-left: 28px;">DKK 354.00</Label>
+                <Label style="padding-left: 50px;">40% OFF</Label>
+                <br>
+                <div class="size">
+                    <label>Size</label>
+                    <select name="size" id="size">
+                        <option value="small">Small</option>
+                        <option value="large">Large</option>
+                        <option value="medium">Medium</option>
+                    </select>
+                </div>
+
+                <div class="color">
+                    <label style="padding-right: 0px;">Color</label>
+                    <select name="Color" id="color">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Green">Green</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottombox" id="bottombox" onclick="toggleExpanded('bottombox')">
+            <div class="options" id="bottomoptions">
+                <input type="radio" id="bottom" value="1 Pair">
+                <label for="bottom">3 Pair</label><br>
+                <Label style="padding-left: 28px;">DKK 528.00</Label>
+                <Label style="padding-left: 50px;">60% OFF</Label>
+                <br>
+                <div class="size">
+                    <label>Size</label>
+                    <select name="size" id="size" style="display: none;">
+                        <option value="small">Small</option>
+                        <option value="large">Large</option>
+                        <option value="medium">Medium</option>
+                    </select>
+                </div>
+
+                <div class="color">
+                    <label style="padding-left: 28px;">Color</label>
+                    <select name="Color" id="color" style="display: none;">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Green">Green</option>
+                    </select>
+                </div>
+                
+            </div>
+        </div>
+        <div>
+            <label style="color: green;padding-left: 20px;">Free 2 Day Shipping</label>
+            <label style="padding-left: 60px;">Total:Dkk360</label>
+        </div>
+        <div>
+            <button class="button" style="background-color: #007F61;">+ Add to Cart</button>
+        </div>
+        <div>
+            <label style="padding-left: 50%; color: gray;">@ Powerd By Pumper</label>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
